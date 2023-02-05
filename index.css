@@ -1,0 +1,200 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap");
+body {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  box-sizing: border-box;
+  width: 100vw;
+  height: 100vh;
+  background-image: url(/uqualizer/assets/bg-main-mobile.png);
+  background-repeat: no-repeat;
+  background-position-y: -200px;
+}
+.container {
+  background-color: #fcfaf9;
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  background-image: url(/uqualizer/assets/bg-main-mobile.png);
+  background-position-y: -200px;
+}
+.hone {
+  position: absolute;
+  margin-left: 24px;
+  color: #191826;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-style: normal;
+  font-size: 24px;
+  font-weight: 700;
+  margin-top: 40px;
+}
+.htwo {
+  position: absolute;
+  font-family: "IBM Plex Sans", sans-serif;
+  width: 135px;
+  font-weight: 700;
+  font-size: 40px;
+  width: 327px;
+  margin-top: 136px;
+  margin-left: 24px;
+  color: #191826;
+}
+.pone {
+  position: absolute;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-style: normal;
+  width: 300px;
+  margin-left: 24px;
+  margin-top: 300px;
+  font-weight: 500;
+  line-height: 26px;
+  font-size: 16px;
+  color: #191826;
+}
+.done {
+  position: absolute;
+  margin-top: 622px;
+  background-color: #191826;
+  width: max-content;
+  background-image: url(/uqualizer/assets/bg-pattern-2.svg);
+  display: flex;
+  width: 100vw;
+  height: 600px;
+  background-repeat: no-repeat;
+  background-position-x: 50px;
+  border-radius: 12px;
+}
+
+.itwo {
+  position: absolute;
+  width: 208px;
+  height: 430px;
+  margin-left: 80px;
+  top: 524px;
+}
+.dthree {
+  position: absolute;
+  background-color: #fa7453;
+  width: 100vw;
+  height: 545px;
+  margin-top: 1002px;
+  border-radius: 12px;
+}
+.hthree {
+  position: absolute;
+  width: 300px;
+  margin-left: 36px;
+  height: 40px;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  color: #fcfaf9;
+  margin-top: 48px;
+}
+.ptwo {
+  position: absolute;
+  width: 300px;
+  margin-left: 36px;
+  color: #fcfaf9;
+  margin-top: 100px;
+  line-height: 28px;
+  font-size: 18px;
+  height: 140px;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+.boldone {
+  position: absolute;
+  width: 79px;
+  height: 52px;
+  margin-top: 276px;
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-size: 65px;
+  line-height: 52px;
+  font-weight: 700;
+  color: #fcfaf9;
+  margin-left: 42px;
+}
+.pthree {
+  position: absolute;
+  height: 32px;
+  left: 137px;
+  top: 285px;
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  letter-spacing: -0.2px;
+  color: #fcfaf9;
+}
+.bone{
+    position: absolute;
+    width: 296px;
+    height: 60px;
+    background-color: #191826;
+    background-image: url(/uqualizer/assets/icon-apple.svg);
+    background-repeat: no-repeat;
+    color: #fcfaf9;
+    border-radius: 12px;
+    background-position-x: 80px;
+    background-position-y: 17px ;
+    margin-left: 42px;
+    margin-top: 360px;
+    border: none;
+}
+.btwo{
+    position: absolute;
+    width: 296px;
+    height: 60px;
+    background-color: #fcfaf9;
+    background-image: url(/uqualizer/assets/icon-android.svg);
+    background-repeat: no-repeat;
+    border-radius: 12px;
+    background-position-x: 70px;
+    background-position-y: 17px ;
+    margin-left: 42px;
+    margin-top: 440px;
+    border: none;
+
+}
+.hfour{
+    position: absolute;
+    width: 146px;
+    height: 32px;
+    margin-top: 1610px;
+    margin-left: 25px;
+    color: #191826;
+    font-family: "IBM Plex Sans";
+}
+.pfour{
+    width: 327px;
+    font-family: "IBM Plex Sans";
+    font-weight: 400;
+    font-style: normal;
+    line-height: 26px;
+    color: #191826;
+    position: absolute;
+    margin-top: 1676px;
+    margin-left: 25px;
+}
+.sone{
+    font-weight: 700;
+}
+.ithree{
+     width: 20px;
+     height: 20px;
+     position: absolute;
+     margin-top: 1845px;
+     margin-left: 24px;
+
+}
+.placeholder{
+  position: absolute;
+
+  margin-top: 1920px;
+}
