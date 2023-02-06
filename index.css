@@ -349,43 +349,44 @@ body {
     background-color: #FFB964;
     cursor: pointer;
   }
-}
-.hfour{
-  margin-left: 230px;
-}
-.pfour{
-  margin-left: 600px;
-  margin-top: 1620px;
-}
-.boldtwo{
-  margin-top: 1671.6px;
-  margin-left: 685px;
-}
-.ithree{
-  margin-left: 1150px;
-  margin-top: 1650px;
-  background: none;
-}
-.ifour{
-  margin-left:1186px ;
-  margin-top: 1650px;
-
-}
-.ifive{
-  margin-left: 1222px;
-  margin-top: 1650px;
-
-}
-.ithree:hover{
-  background-color: #FA7453;
-  cursor: pointer;
-}
-.ifour:hover{
-  background-color: #FA7453;
-  cursor: pointer;
-  border-radius: 6.6px;
-}
-.ifive:hover{
-  background-color: #FA7453;
-  cursor: pointer;
+  .hfour{
+    margin-left: 230px;
+  }
+  .pfour{
+    margin-left: 600px;
+    margin-top: 1620px;
+  }
+  .boldtwo{
+    margin-top: 1671.6px;
+    margin-left: 685px;
+  }
+  .ithree{
+    margin-left: 1150px;
+    margin-top: 1650px;
+    background: none;
+  }
+  .ifour{
+    margin-left:1186px ;
+    margin-top: 1650px;
+  
+  }
+  .ifive{
+    margin-left: 1222px;
+    margin-top: 1650px;
+  
+  }
+  .ithree:hover{
+    background-color: #FA7453;
+    cursor: pointer;
+  }
+  .ifour:hover{
+    background-color: #FA7453;
+    cursor: pointer;
+    border-radius: 6.6px;
+  }
+  .ifive:hover{
+    background-color: #FA7453;
+    cursor: pointer;
+  }
+  
 }
