@@ -71,7 +71,7 @@ body {
   width: 208px;
   height: 430px;
   margin-left: 80px;
-  top: 524px;
+  margin-top: 524px;
 }
 .dthree {
   position: absolute;
@@ -132,69 +132,260 @@ body {
   letter-spacing: -0.2px;
   color: #fcfaf9;
 }
-.bone{
-    position: absolute;
-    width: 296px;
-    height: 60px;
-    background-color: #191826;
-    background-image: url(/uqualizer/assets/icon-apple.svg);
-    background-repeat: no-repeat;
-    color: #fcfaf9;
-    border-radius: 12px;
-    background-position-x: 80px;
-    background-position-y: 17px ;
-    margin-left: 42px;
-    margin-top: 360px;
-    border: none;
+.bone {
+  position: absolute;
+  width: 296px;
+  height: 60px;
+  background-color: #191826;
+  background-image: url(/uqualizer/assets/icon-apple.svg);
+  background-repeat: no-repeat;
+  color: #fcfaf9;
+  border-radius: 12px;
+  background-position-x: 80px;
+  background-position-y: 17px;
+  margin-left: 42px;
+  margin-top: 360px;
+  border: none;
 }
-.btwo{
-    position: absolute;
-    width: 296px;
-    height: 60px;
-    background-color: #fcfaf9;
-    background-image: url(/uqualizer/assets/icon-android.svg);
-    background-repeat: no-repeat;
-    border-radius: 12px;
-    background-position-x: 70px;
-    background-position-y: 17px ;
-    margin-left: 42px;
-    margin-top: 440px;
-    border: none;
-
+.btwo {
+  position: absolute;
+  width: 296px;
+  height: 60px;
+  background-color: #fcfaf9;
+  background-image: url(/uqualizer/assets/icon-android.svg);
+  background-repeat: no-repeat;
+  border-radius: 12px;
+  background-position-x: 70px;
+  background-position-y: 17px;
+  margin-left: 42px;
+  margin-top: 440px;
+  border: none;
+  color: #191826;
 }
-.hfour{
-    position: absolute;
-    width: 146px;
-    height: 32px;
-    margin-top: 1610px;
-    margin-left: 25px;
-    color: #191826;
-    font-family: "IBM Plex Sans";
+.hfour {
+  position: absolute;
+  width: 146px;
+  height: 32px;
+  margin-top: 1610px;
+  margin-left: 25px;
+  color: #191826;
+  font-family: "IBM Plex Sans";
 }
-.pfour{
-    width: 327px;
-    font-family: "IBM Plex Sans";
-    font-weight: 400;
-    font-style: normal;
-    line-height: 26px;
-    color: #191826;
-    position: absolute;
-    margin-top: 1676px;
-    margin-left: 25px;
+.pfour {
+  width: 327px;
+  font-family: "IBM Plex Sans";
+  font-weight: 400;
+  font-style: normal;
+  line-height: 26px;
+  color: #191826;
+  position: absolute;
+  margin-top: 1676px;
+  margin-left: 25px;
 }
-.sone{
-    font-weight: 700;
+.sone {
+  font-weight: 700;
 }
-.ithree{
-     width: 20px;
-     height: 20px;
-     position: absolute;
-     margin-top: 1845px;
-     margin-left: 24px;
-
+.ithree {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  margin-top: 1845px;
+  margin-left: 24px;
 }
-.placeholder{
+.placeholder {
   position: absolute;
 
   margin-top: 1920px;
+}
+.ifour {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  margin-top: 1845px;
+  margin-left: 60px;
+}
+.ifive {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  margin-top: 1845px;
+  margin-left: 96px;
+}
+.boldtwo {
+  position: absolute;
+  margin-top: 1750px;
+  width: 327px;
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  line-height: 26px;
+  color: #191826;
+  position: absolute;
+  margin-left: 25px;
+}
+@media screen and (min-width: 768px) {
+  .container {
+    background-image: url(/uqualizer/assets/bg-main-tablet.png),
+      url(/uqualizer/assets/bg-pattern-1.svg);
+    background-repeat: no-repeat, no-repeat,no-repeat;
+    background-position-x: 100px, right;
+    background-position-y: -10px, -50px, -100px;
+    background-color: #f2f2f2;
+    width: 100vw;
+    height: 100vh;
+  }
+  body {
+    background-color: #f2f2f2;
+  }
+  .hone {
+    width: 140px;
+    margin-left: 40px;
+    height: 32px;
+    margin-top: 60px;
+  }
+  .htwo {
+    width: 500px;
+    height: 200px;
+    font-size: 60px;
+    line-height: 60px;
+    margin-left: 40px;
+    margin-top: 189px;
+  }
+  .pone {
+    margin-left: 40px;
+    margin-top: 409px;
+    width: 500px;
+    height: 100px;
+    font-size: 18px;
+    line-height: 28px;
+  }
+  .done {
+    width: 696px;
+    height: 600px;
+    margin-top: 770px;
+    margin-left: 33px;
+    background-position-x: 200px;
+    background-position-y: -39px;
+  }
+  .itwo {
+    width: 270px;
+    margin-top: 632px;
+    height: 536px;
+  }
+  .dthree {
+    width: 400px;
+    margin-left: 250px;
+    height: 545px;
+    margin-top: 920px;
+  }
+  .hfour {
+    font-weight: 1000;
+    margin-left: 40px;
+  }
+  .pfour {
+    margin-left: 40px;
+  }
+  .boldtwo{
+    margin-top: 1728px;
+    margin-left: 125px;
+  }
+  .ithree{
+    margin-left: 629px;
+    margin-top: 1700px;
+  }
+  .ifour{
+    margin-top: 1700px;
+    margin-left: 665px;
+  }
+  .ifive{
+    margin-top: 1700px;
+    margin-left: 701px; 
+  }
+}
+@media screen and (min-width:1000px){
+  body{
+    width: 100vw;
+    height: 100vh;
+    background-color: #f2f2f2;
+  }
+  .container{
+    background-image: url(/uqualizer/assets/bg-main-desktop.png),url(/uqualizer/assets/bg-pattern-1.svg);
+    background-color: #f2f2f2;
+    width: 100vw;    
+  }
+  .hone{
+    margin-left: 230px;
+    margin-top: 60px;
+  }
+  .htwo{
+    width: 1015px;
+    font-size: 88px;
+    line-height: 88px;
+    margin-left: 230px;
+  }
+  .pone{
+    width: 825px;
+    line-height: 24px;
+    font-size: 20px;
+    margin-left: 230px;
+  }
+  .done{
+    width: 1110px;
+    height: 600px;
+    margin-left: 230px;
+    background-position-x: center ;
+  }
+  .itwo{
+    margin-left: 400px;
+  }
+  .dthree{
+    margin-left: 800px ;
+  }
+  .bone:hover{
+    background-color: #66E2DC;
+    cursor: pointer;
+    color: white;
+  }
+  .btwo:hover{
+    background-color: #FFB964;
+    cursor: pointer;
+  }
+}
+.hfour{
+  margin-left: 230px;
+}
+.pfour{
+  margin-left: 600px;
+  margin-top: 1620px;
+}
+.boldtwo{
+  margin-top: 1671.6px;
+  margin-left: 685px;
+}
+.ithree{
+  margin-left: 1150px;
+  margin-top: 1650px;
+  background: none;
+}
+.ifour{
+  margin-left:1186px ;
+  margin-top: 1650px;
+
+}
+.ifive{
+  margin-left: 1222px;
+  margin-top: 1650px;
+
+}
+.ithree:hover{
+  background-color: #FA7453;
+  cursor: pointer;
+}
+.ifour:hover{
+  background-color: #FA7453;
+  cursor: pointer;
+  border-radius: 6.6px;
+}
+.ifive:hover{
+  background-color: #FA7453;
+  cursor: pointer;
 }
