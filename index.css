@@ -226,7 +226,7 @@ body {
   .container {
     background-image: url(/uqualizer/assets/bg-main-tablet.png),
       url(/uqualizer/assets/bg-pattern-1.svg);
-    background-repeat: no-repeat, no-repeat,no-repeat;
+    background-repeat: no-repeat, no-repeat, no-repeat;
     background-position-x: 100px, right;
     background-position-y: -10px, -50px, -100px;
     background-color: #f2f2f2;
@@ -284,109 +284,106 @@ body {
   .pfour {
     margin-left: 40px;
   }
-  .boldtwo{
+  .boldtwo {
     margin-top: 1728px;
     margin-left: 125px;
   }
-  .ithree{
+  .ithree {
     margin-left: 629px;
     margin-top: 1700px;
   }
-  .ifour{
+  .ifour {
     margin-top: 1700px;
     margin-left: 665px;
   }
-  .ifive{
+  .ifive {
     margin-top: 1700px;
-    margin-left: 701px; 
+    margin-left: 701px;
   }
 }
-@media screen and (min-width:1000px){
-  body{
+@media screen and (min-width: 1000px) {
+  body {
     width: 100vw;
     height: 100vh;
     background-color: #f2f2f2;
   }
-  .container{
-    background-image: url(/uqualizer/assets/bg-main-desktop.png),url(/uqualizer/assets/bg-pattern-1.svg);
+  .container {
+    background-image: url(/uqualizer/assets/bg-main-desktop.png),
+      url(/uqualizer/assets/bg-pattern-1.svg);
     background-color: #f2f2f2;
-    width: 100vw;    
+    width: 100vw;
   }
-  .hone{
+  .hone {
     margin-left: 230px;
     margin-top: 60px;
   }
-  .htwo{
+  .htwo {
     width: 1015px;
     font-size: 88px;
     line-height: 88px;
     margin-left: 230px;
   }
-  .pone{
+  .pone {
     width: 825px;
     line-height: 24px;
     font-size: 20px;
     margin-left: 230px;
   }
-  .done{
+  .done {
     width: 1110px;
     height: 600px;
     margin-left: 230px;
-    background-position-x: center ;
+    background-position-x: center;
   }
-  .itwo{
+  .itwo {
     margin-left: 400px;
   }
-  .dthree{
-    margin-left: 800px ;
+  .dthree {
+    margin-left: 800px;
   }
-  .bone:hover{
-    background-color: #66E2DC;
+  .bone:hover {
+    background-color: #66e2dc;
     cursor: pointer;
     color: white;
   }
-  .btwo:hover{
-    background-color: #FFB964;
+  .btwo:hover {
+    background-color: #ffb964;
     cursor: pointer;
   }
-  .hfour{
+  .hfour {
     margin-left: 230px;
   }
-  .pfour{
+  .pfour {
     margin-left: 600px;
     margin-top: 1620px;
   }
-  .boldtwo{
+  .boldtwo {
     margin-top: 1671.6px;
     margin-left: 685px;
   }
-  .ithree{
+  .ithree {
     margin-left: 1150px;
     margin-top: 1650px;
     background: none;
   }
-  .ifour{
-    margin-left:1186px ;
+  .ifour {
+    margin-left: 1186px;
     margin-top: 1650px;
-  
   }
-  .ifive{
+  .ifive {
     margin-left: 1222px;
     margin-top: 1650px;
-  
   }
-  .ithree:hover{
-    background-color: #FA7453;
+  .ithree:hover {
+    fill: #fa7453;
+  }
+
+  .ifour:hover {
+    fill: #fa7453;
     cursor: pointer;
   }
-  .ifour:hover{
-    background-color: #FA7453;
-    cursor: pointer;
-    border-radius: 6.6px;
-  }
-  .ifive:hover{
-    background-color: #FA7453;
+  .ifive:hover {
+    fill: #fa7453;
     cursor: pointer;
   }
-  
 }
